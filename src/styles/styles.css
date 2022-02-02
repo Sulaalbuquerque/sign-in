@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    --text: rgb(255, 255, 255);
+    --backgroundButton: rgb(0, 0, 0);
+    --backgroundContent: rgba(51, 37, 37, 0.7);
+    --borderContent: rgb(175, 160, 160);
+    --borderInput: rgb(175, 160, 160);
+    --backgroundInput: rgb(219, 210, 210);
+}
+
+.container{
+    background-image: url('../assets/pexels4.webp');
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: var(--text);
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border: solid var(--borderContent) .2rem;
+    width: 50vw;
+    border-radius: 5%;
+    background: var(--backgroundContent);
+    min-width: 700px;
+}
+
+h1{
+    margin-bottom: 2rem;
+}
+
+.data{
+    margin-bottom: 5rem;
+}
+
+input{
+    padding: .5rem;
+    border-radius: 5%;
+    border: solid var(--borderInput) .05rem;
+    background: var(--backgroundInput);
+    width: 90%;
+    margin-top: .5rem;
+}
+
+a{
+    color: var(--text);
+    margin-left: 45%;
+}
+
+button{
+    background: var(--backgroundButton);
+    color: var(--text);
+    padding: .4rem;
+    border-radius: 10%;
+    border: solid var(--backgroundButton) .1rem;
+    cursor: pointer;
+}
+
+.login{
+    display: block;
+    margin-top: 2rem;
+}
+
+.email{
+    margin-bottom: 1rem;
+}
+
+.password{
+    margin-bottom: 1.5rem;
+}
+
+span{
+    margin-right: .8rem;
+}
+
+.image{
+    background-image: url('../assets/pexels4.webp');
+    width: 20rem;
+    height: 30rem;
+    margin-left: 2rem;
+    border-radius: 5%;
+}
+    
